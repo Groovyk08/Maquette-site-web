@@ -1,0 +1,279 @@
+/* Mise en page CSS */
+
+
+/* Chamgement de la police */
+
+html,
+body {
+    font-family: 'Raleway';
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+
+/*  LE CSS EN  DESSOUS CONCERNE LA BARRE DE RECHERCHE ET ET LES AUTRES INFOS DEDANS*/
+
+
+/* HEADER */
+
+h1 {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sizelogo {
+    height: 80px;
+    width: 180px;
+}
+
+.blocmenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.lien {
+    display: flex;
+}
+
+a:hover
+/* Apparence au survol des liens */
+
+{
+    color: #0065FC;
+    text-decoration: overline;
+}
+
+.barrerecherche {
+    height: 24px;
+    width: 150px;
+}
+
+.bouttonrecherche {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 30px;
+    width: 150px;
+}
+
+.filtres {
+    display: flex;
+    font-weight: bold;
+}
+
+.blocfiltre {
+    display: flex;
+    align-items: center;
+}
+
+.bouttonfiltres {
+    background-color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 140px;
+    font-weight: bold;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 10px;
+}
+
+
+/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII  LIGNE DE SEPARATION IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
+
+
+/* BODY */
+
+
+/* Hébergements à Marseille */
+
+.hebergements {
+    background-color: #f2f2f2;
+    height: 550px;
+    width: 70%;
+    border-radius: 15px;
+}
+
+.hebergementflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.marseille {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    height: 420px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blochebergement {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 10px 4px 5px;
+}
+
+.imghebergement {
+    height: 120px;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bloctext {
+    line-height: 5px;
+}
+
+.star {
+    color: #0065FC;
+}
+
+p {
+    font-family: 'Raleway';
+    font-size: 12px;
+}
+
+
+/* Les Plus Populaires */
+
+.lpp {
+    display: flex;
+    background-color: #f2f2f2;
+    height: 550px;
+    width: 25%;
+    padding-left: 20px;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.logolpp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.blocpopulaire {
+    display: flex;
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.imglpp {
+    height: 130px;
+    width: 40%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.textlpp {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+/* Activites à Marseille */
+
+h2 {
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.activiteflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activites {
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.boxactivite {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #f2f2f2;
+}
+
+.colonneactivite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgactivite1 {
+    height: 300px;
+    width: 280px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.imgactivite2 {
+    height: 130px;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.imgactivite3 {
+    height: 100px;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.textactivite {
+    font-family: 'Raleway';
+}
+
+
+/* FOOTER */
+
+h3 {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer {
+    font-size: 14px;
+    display: flex;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.blocfooter {
+    font-family: 'Raleway';
+    font-size: 10px;
+    text-align: left;
+    padding: 10px 100px 5px 30px;
+}
