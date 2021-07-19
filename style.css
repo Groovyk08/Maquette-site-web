@@ -1,0 +1,623 @@
+/* CSS */
+
+/* Forme de la page Changement de la police */
+
+main, section, header {
+  font-family: 'Raleway';
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+/*  LE CSS EN  DESSOUS CONCERNE LA BARRE DE RECHERCHE ET ET LES AUTRES INFOS DEDANS*/
+
+/* HEADER */
+
+h1 {
+  font-family: 'Raleway';
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.bloclogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Dimensions du logo */
+
+.sizelogo {
+  height: 70px;
+  width: 160px;
+}
+
+.blocmenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Forme de liens */
+
+.lien {
+  display: flex;
+  color: #0065FC;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+
+.inscrire {
+  font-weight: bold;
+  display: flex;
+}
+
+/* Apparence au survol des liens */
+
+nav a:hover {
+  text-decoration: overline;
+  border-top: 2x solid #0065FC
+}
+
+/* Texte d'introduction */
+
+/* Dimensions barre de recherche */
+
+.barrerecherche {
+  height: 30px;
+  width: 150px;
+  font-weight: bold;
+  color: black;
+  border: none;
+  border: 1px solid #f2f2f2;
+}
+
+/* Forme de la barre de recherche*/
+
+.recherche {
+  display: flex;
+  margin-left: inherit;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logorecherche {
+  width: 30px;
+  display: flex;
+  background-color: #f2f2f2;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.louperecherche {
+  display: flex;
+  align-content: center;
+}
+
+/* Dimensions bouton de recherche */
+
+.boutonrecherche {
+  background-color: #0065FC;
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  width: 150px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Au survol du bouton recherche */
+
+.boutonrecherche:hover {
+  cursor: pointer;
+}
+
+.hiddensm {
+  display: block;
+}
+
+.hiddenxl {
+  display: none !important;
+}
+
+.filtres {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.blocfiltre {
+  display: flex;
+  align-items: center;
+  margin-left: inherit;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.textfiltre {
+  display: flex;
+  align-items: center;
+}
+
+/* Forme des boutons filtres*/
+
+.boutonfiltres {
+  display: flex;
+  background-color: white;
+  border-radius: 50px;
+  padding: 0;
+  margin-right: 20px;
+  height: 30px;
+  width: max-content;
+  font-weight: bold;
+  align-items: center;
+  justify-content: flex-start;
+  border: none;
+  border: 1px solid #DEEBFF;
+  min-width: 120px;
+}
+
+/* Au survol des boutons filtres */
+
+.boutonfiltres:hover {
+  cursor: pointer;
+}
+
+/* forme icones des filtres */
+
+.iconefiltres {
+  color: #0065FC;
+  background-color: #DEEBFF;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* forme icone info */
+
+.iconeinfo {
+  color: #f2f2f2;
+  background-color: #0065FC;
+  border-radius: 50px;
+  border-color: #f2f2f2;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Forme de la ligne info */
+
+.infos {
+  display: flex;
+  align-items: center;
+  font-family: 'Raleway';
+}
+
+.textinfo {
+  padding-left: 5px;
+}
+
+/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII  LIGNE DE SEPARATION IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
+
+/* BODY */
+
+/* Hébergements à Marseille */
+
+/* Dimensions bloc hébergements à Marseille */
+
+.hebergements {
+  background-color: #f2f2f2;
+  width: 70%;
+  border-radius: 15px;
+}
+
+/* Forme des blocs hebergements et LPP*/
+
+.hebergementflex {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Dimensions des cartes d'hébergements */
+
+.marseille {
+  display: flex;
+  flex-wrap: wrap;
+  height: 430px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Forme d'un bloc hébergement */
+
+.blochebergement {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px 5px 5px 5px;
+  margin: 15px;
+}
+
+/* Dimensions images du bloc hébergements */
+
+.imghebergement {
+  height: 120px;
+  width: 250px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
+/* Dimensions textes du bloc hébergements */
+
+.bloctext {
+  line-height: 5px;
+}
+
+/* Forme et couleur des étoiles bleues */
+
+.etoilebleue {
+  display: flex;
+  color: #0065FC;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+
+/* Forme et couleur des étoiles grises */
+
+.etoilegrise {
+  display: flex;
+  color: #f2f2f2;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* Forme du clique pour les cartes d'hébergements et d'activités */
+
+.cliquecarte:hover {
+  cursor: pointer;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+/* Police et taille du texte */
+
+p {
+  font-family: 'Raleway';
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+/* Les Plus Populaires */
+
+/* Dimensions bloc les plus populaires */
+
+.lpp {
+  display: flex;
+  background-color: #f2f2f2;
+  height: 550px;
+  width: 25%;
+  min-width: 320px;
+  padding-left: 20px;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* Forme du titre LPP */
+
+.titrelpp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* Dimensions du bloc LPP */
+
+.blocpopulaire {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  background-color: white;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+/* Dimensions images LPP */
+
+.imglpp {
+  height: 130px;
+  width: 40%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  object-fit: cover;
+}
+
+/* Forme texte LPP */
+
+.textlpp {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Activites à Marseille */
+
+/* Police des titres de la section Activités */
+
+h2 {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+/* Forme de la section Activités */
+
+.activiteflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.activites {
+  border-radius: 15px;
+  padding: 1em;
+}
+
+/* Forme des plus grandes cartes d'Activités */
+
+.boxactivite {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px #f2f2f2;
+}
+
+/* Forme colonnes des activités */
+
+.colonneactivite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Dimensions grandes images activités */
+
+.imgactivite1 {
+  height: 300px;
+  width: 280px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
+/* Dimensions moyennes images activités */
+
+.imgactivite2 {
+  height: 130px;
+  width: 250px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
+/* Dimensions petites images activités */
+
+.imgactivite3 {
+  height: 100px;
+  width: 250px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
+.textactivite {
+  padding-left: 10px;
+}
+
+/* FOOTER */
+
+/* Forme des titres footer */
+
+h3 {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Dimensions bloc footer */
+
+.footer {
+  font-size: 14px;
+  display: flex;
+  background-color: #f2f2f2;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
+/* Forme des colonnes du footer */
+
+.blocfooter {
+  font-family: 'Raleway';
+  font-size: 10px;
+  text-align: left;
+  margin-right: 200px;
+  padding-left: 15px;
+}
+
+/* Forme du texte footer */
+.textfooter {
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+/* -------------------RESPONSIVE--------------------------- */
+
+/* Format smartphones et tablettes  */
+
+@media screen and (max-width: 1024px) {
+
+  /* forme de la section introduction */
+  .introduction {
+    align-items: flex-start;
+  }
+
+  /* Forme des titres du bloc hébergements */
+  h4 {
+    margin-left: 0;
+  }
+
+  /* Forme du texte */
+  .textfooter {
+    padding-left: 0;
+  }
+
+  /* Apparence au survol d'un élément*/
+  nav a:hover {
+    border-top: none;
+    border-bottom: 2px solid #0065FC;
+    text-decoration: none;
+  }
+
+  /* Forme du bouton recherche en responsive*/
+  .boutonrecherche {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 40px;
+  }
+  .hiddenxl {
+    display: block !important;
+  }
+  .hiddensm {
+    display: none;
+  }
+
+  .cliquecarte {
+    width: 100%;
+  }
+
+  /* Forme de la section LPP en responsive */
+  .lpp {
+    min-width: 150px;
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  /* Pour annuler le background-color de la version desktop */
+  .hebergements {
+    background-color: white;
+    width: 100%;
+  }
+
+  /* Forme des cartes du bloc hébergements */
+  .blochebergement {
+    min-height: 200px;
+    min-width: 100%;
+    margin: 0%;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px #f2f2f2;
+  }
+
+  /* Dimensions des images du bloc hébergements */
+  .imghebergement {
+    width: 100%;
+  }
+  .marseille {
+    height: fit-content;
+    width: 100%;
+  }
+
+  /* Dimensions des images du bloc activités */
+  .imgactivite1, .imgactivite2, .imgactivite3 {
+    max-width: 100%;
+    width: 100%;
+    height: 150px;
+  }
+
+  /* Formes et dimensions des éléments du bloc activités */
+  .activites {
+    width: 100%;
+    padding: 0;
+  }
+  .activiteflex {
+    width: 100%;
+  }
+  .boxactivite {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .colonneactivite {
+    width: 100%;
+  }
+
+  /* Forme de la section footer en responsive */
+  .footer {
+    flex-direction: column;
+  }
+
+  .blocfooter {
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+
+/* Format tablettes */
+@media screen and (max-width: 660px) {
+  .boutonfiltres {
+    margin-bottom: 20px;
+  }
+}
+
+/* Format smartphones */
+@media screen and (max-width: 424px){
+
+  .blocmenu {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+}
+
+
+/* Format Laptop */
+@media screen and  (max-width: 1440px){
+
+  /* Forme du texte footer */ 
+  .textfooter {
+    padding-left: 0;
+  }
+  
+}
